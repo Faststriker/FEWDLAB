@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pranav's Portfolio</title>
-    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
             background: #2e2e2e;
@@ -26,6 +26,7 @@
     <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Pranav's Portfolio</a>
+            <a class="btn btn-outline-info" href="feedback.html">Give Feedback</a>
         </div>
     </nav>
     
@@ -35,53 +36,40 @@
         <div class="card bg-dark text-white mb-3">
             <div class="card-body">
                 <h2>About Me</h2>
-                <p>Hi! I'm Pranav, a passionate web developer currently pursuing my Bachelor's Degree at Keshav Memorial Institute of Technology. I have been actively learning and working on various Front-End and Full-Stack development projects.</p>
+                <p>Hi! I'm Pranav, a passionate web developer currently pursuing my Bachelor's Degree at Keshav Memorial Institute of Technology.</p>
             </div>
         </div>
-        
+
         <div class="card bg-dark text-white mb-3">
             <div class="card-body">
                 <h2>Skills</h2>
                 <ul class="list-group bg-dark">
-                    <a href="#" class="list-group-item list-group-item-action bg-dark text-white">Java</a>
-                    <a href="#" class="list-group-item list-group-item-action bg-dark text-white">MERN Stack</a>
-                    <a href="#" class="list-group-item list-group-item-action bg-dark text-white">Javascript</a>
-                    <a href="#" class="list-group-item list-group-item-action bg-dark text-white">Python</a>
-                    <a href="#" class="list-group-item list-group-item-action bg-dark text-white">Soft Skills</a>
-                    <a href="#" class="list-group-item list-group-item-action bg-dark text-white">Project Management</a>
+                    <li class="list-group-item bg-dark text-white">Java</li>
+                    <li class="list-group-item bg-dark text-white">MERN Stack</li>
+                    <li class="list-group-item bg-dark text-white">JavaScript</li>
+                    <li class="list-group-item bg-dark text-white">Python</li>
+                    <li class="list-group-item bg-dark text-white">Soft Skills</li>
+                    <li class="list-group-item bg-dark text-white">Project Management</li>
                 </ul>
             </div>
         </div>
-        
+
         <div class="card bg-dark text-white mb-3">
             <div class="card-body">
                 <h2>Projects / Work Experience</h2>
                 <h3>AI/ML Tool to Detect System Compromise</h3>
                 <p>Developed a tool that fetches files and analyzes them for malware threats using Flutter and Machine Learning.</p>
                 <a class="btn btn-outline-info" href="https://github.com/kmitofficial/AIToolForMalwareDetection-G59-PS23">GitHub Link</a>
-                <h3 class="mt-3">Gacha Game using C#</h3>
-                <p>Developed a small gacha game in C# that allows users to roll for characters with different rarities.</p>
             </div>
         </div>
-        
-        <div class="card bg-dark text-white mb-3">
-            <div class="card-body">
-                <h2>Feedback / Achievements</h2>
-                <p>Received appreciation for AI/ML project from faculty and industry professionals.</p>
-                <p>Completed multiple web development projects and contributed to open-source repositories.</p>
-                <p>Completion certificate for DSA in Java from Geeks For Geeks</p>
-            </div>
-        </div>
-        
+
         <div class="card bg-dark text-white mb-3">
             <div class="card-body">
                 <h2>Education Profile</h2>
                 <p>Bachelor's Degree in Computer Science, Keshav Memorial Institute of Technology</p>
-                <p>High School - Paramita High School, Karimnagar</p>
-                <p>Intermediate - Alphores Junior College, Karimnagar</p>
             </div>
         </div>
-        
+
         <div class="card bg-dark text-white mb-3">
             <div class="card-body">
                 <h2>Contact Information</h2>
@@ -91,29 +79,9 @@
                 <p>LinkedIn: <a class="text-info" href="https://www.linkedin.com/in/pranav-dingiri-97410825a/">LinkedIn Profile</a></p>
             </div>
         </div>
-        
-        <div class="card bg-dark text-white mb-3">
-            <div class="card-body">
-                <h2>Feedback Form</h2>
-                <form>
-                    <div class="mb-3">
-                        <label for="name" class="form-label">Name</label>
-                        <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="email" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="feedback" class="form-label">Your Feedback</label>
-                        <textarea class="form-control" id="feedback" rows="4" placeholder="Share your thoughts" required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Submit Feedback</button>          
-                </form>
-            </div>
-        </div>
     </div>
 
-    <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
